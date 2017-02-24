@@ -1,0 +1,49 @@
+# Site settings
+title: Consletest - Learn to be Pro
+description: "A blog about what i Learned"
+baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+url: "http://consletest.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+# User settings
+username: consletest
+user_title: Lorem Ipsum - FrontEnd
+email: consletest@gmail.com
+twitter_username: consletest
+github_username:  consletest
+gplus_username:  101439517094386254099
+disqus_username: consletest
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: asciilang
+    url: https://github.com/victorvoid/asciilang
+  - name: vim-frontend
+    url: https://github.com/victorvoid/vim-frontend
+  - name: generator-capybara
+    url: https://github.com/victorvoid/generator-capybara 
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
