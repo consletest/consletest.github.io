@@ -1,11 +1,11 @@
 # Site settings
-title: Consletest - Learn to be Pro
+title: Consletest - Learn to Sharing
 description: "A blog about what i Learned"
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "http://consletest.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "http://consletest.me" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
 username: consletest
-user_title: Lorem Ipsum - FrontEnd
+user_title: tester
 email: consletest@gmail.com
 twitter_username: consletest
 github_username:  consletest
@@ -39,11 +39,7 @@ links:
     url: /about
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: simple-crud
+    url: https://github.com/consletest/SimpleCrud
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
